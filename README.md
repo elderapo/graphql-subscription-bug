@@ -1,18 +1,12 @@
 # How to use:
 
-1. Set project name:
-```bash
-MY_PROJECT=my-project
-```
+1. Clone repo and start server
 
-2. Install:
 ```bash
-git clone --depth=1 --branch=master git@github.com:elderapo/ts-node-starter.git $MY_PROJECT
-cd $MY_PROJECT
-rm -rf .git
-git init
-git add .
-git commit -m "Init"
+git clone git@github.com:elderapo/type-graphql-subscription-bug.git
+cd ./type-graphql-subscription-bug
 yarn
 yarn start
 ```
+
+2. Go to `http://localhost:4000/` and play with `examples.gql`.

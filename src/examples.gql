@@ -1,0 +1,18 @@
+# Does not work
+subscription {
+  normalSubscription {
+    ...TestFragment
+  }
+}
+
+# # Works
+# subscription NormalSubscription {
+#   normalSubscription {
+#     ...TestFragment
+#   }
+# }
+
+fragment TestFragment on Notification {
+  message
+  date
+}
