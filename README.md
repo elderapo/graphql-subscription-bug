@@ -3,8 +3,8 @@
 1. Clone repo and start server
 
 ```bash
-git clone git@github.com:elderapo/type-graphql-subscription-bug.git
-cd ./type-graphql-subscription-bug
+git clone git@github.com:elderapo/graphql-subscription-bug.git
+cd ./graphql-subscription-bug.
 yarn
 yarn start
 ```
